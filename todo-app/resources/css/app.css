@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-gray-100 text-gray-900;
+}
+
+header {
+    @apply bg-blue-500 text-white p-4;
+}
+
+header h1 {
+    @apply text-2xl font-bold;
+}
+
+header nav ul {
+    @apply flex space-x-4;
+}
+
+header nav ul li a {
+    @apply hover:underline;
+}
+
+.task {
+    @apply border p-4 rounded-lg shadow-md bg-white;
+}
+
+.task h2 {
+    @apply text-xl font-bold;
+}
+
+.task p {
+    @apply mb-2;
+}
+
+.task .actions a,
+.task .actions button {
+    @apply bg-yellow-500 text-white px-4 py-2 rounded;
+}
+
+.task .actions button {
+    @apply bg-red-500;
+}
+
+.home-container {
+    @apply max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-md;
+}
+
+.home-container h1 {
+    @apply text-4xl font-bold mt-10 mb-4;
+}
+
+.home-container h2 {
+    @apply text-3xl font-bold mb-4;
+}
+
+.home-container p {
+    @apply text-lg mb-4;
+}
+
+.home-container h3 {
+    @apply text-2xl font-semibold mt-6 mb-2;
+}
+
+.home-container ul {
+    @apply list-disc pl-5 mb-4;
+}
+
+.home-container ul li {
+    @apply mb-2;
+}
+
+.home-container ul li a {
+    @apply text-blue-500 hover:underline;
+}
+
+.about-container {
+    @apply max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-md;
+}
+
+.about-container h2 {
+    @apply text-3xl font-bold mb-4;
+}
+
+.about-container p {
+    @apply text-lg mb-4;
+}
+
+.tasks-container {
+    @apply max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-md;
+}
+
+.tasks-container h2 {
+    @apply text-2xl font-bold mb-4;
+}
+
+.tasks-container ul {
+    @apply list-disc pl-5;
+}
+
+.tasks-container ul li {
+    @apply mb-2;
+}
+
+.tasks-container ul li a {
+    @apply text-blue-500 hover:underline;
+}
